@@ -26,7 +26,7 @@ const educationData = [
             <div class="w-full relative px-5 max-w-5xl lg:max-w-7xl mx-auto">
                 <div
                     class="grid lg:grid-cols-3 gap-32 relative lg:max-w-none max-w-2xl md:max-w-3xl mx-auto items-center">
-                    <div class="lg:h-full md:flex lg:col-span-1">
+                    <div class="lg:h-full md:flex lg:col-span-1" data-aos="zoom-in">
                         <div
                             class="flex w-full h-96 min-h-96 lg:w-full lg:h-full items-center relative justify-center">
                             <div class="absolute h-full lg:w-full z-10 rounded-3xl border border-primary">
@@ -38,7 +38,7 @@ const educationData = [
                     </div>
 
                     <div class="flex flex-col gap-4 lg:col-span-2">
-                        <div v-for="data in educationData" :key="data.title">
+                        <div v-for="data in educationData" :key="data.title" data-aos="fade-up">
                             <div class="bg-[#1f1641] rounded-xl p-6 flex flex-col gap-6">
                                 <div class="flex sm:flex-row justify-between items-start flex-col gap-4">
                                     <div class="flex flex-row gap-4 items-start">

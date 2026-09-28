@@ -39,7 +39,7 @@ import { Award, ExternalLink, ShieldCheck } from '@lucide/vue';
             </div>
 
             <div class="grid md:grid-cols-3 gap-8 items-stretch">
-                <div v-for="certification in certifications" :key="certification.id" class="flex md:h-full h-min">
+                <div v-for="certification in certifications" :key="certification.id" class="flex md:h-full h-min" data-aos="fade-up">
                     <div class="relative bg-[#111a3e] p-6 rounded-xl md:min-h-65 w-full group hover:scale-103 duration-300 transition-all ease-in-out">
                         <div class="p-3 rounded-md bg-primary w-min absolute -top-3 -right-3 group-hover:rotate-15 transition-all ease-in-out duration-300">
                             <Award class="text-white" :size="18"/>

@@ -52,8 +52,8 @@ import { BriefcaseBusiness, Building2, Info } from '@lucide/vue';
             <div class="grid lg:grid-cols-2 gap-20 xl:gap-14 relative lg:max-w-none max-w-2xl md:max-w-3xl mx-auto items-start">
                 <div class="lg:py-6 flex flex-col gap-4">
                     <h1 class="font-black text-5xl text-white mb-10 text-center lg:text-left">Technical <span class="text-primary">Skills</span></h1>
-
-                    <div v-for="skill in skills" :key="skill.id" class="p-2 flex flex-col gap-2">
+ data-aos="fade-up-right"
+                    <div v-for="skill in skills" :key="skill.id" class="p-2 flex flex-col gap-2" data-aos="fade-up-right">
                         <div class="flex flex-row items-center justify-between">
                             <p class="text-white font-bold">{{ skill.id }}. {{ skill.name }}</p>
                             <p class="text-primary">{{ skill.width }}</p>
@@ -68,7 +68,7 @@ import { BriefcaseBusiness, Building2, Info } from '@lucide/vue';
                 <div class="lg:py-6 flex flex-col gap-4">
                     <h1 class="font-black text-5xl text-white mb-10 text-center lg:text-left">Work <span class="text-primary">Experience</span></h1>
 
-                    <div v-for="work in workExperiences" :key="work.id" class="p-4 gap-2 bg-[#111a3e] rounded-xl">
+                    <div v-for="work in workExperiences" :key="work.id" class="p-4 gap-2 bg-[#111a3e] rounded-xl" data-aos="fade-up-left">
                         <div class="flex flex-row items-center gap-4">
                             <div class="bg-black rounded-md p-4">
                                 <BriefcaseBusiness class="text-primary" :size="16"/>

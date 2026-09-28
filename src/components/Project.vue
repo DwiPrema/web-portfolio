@@ -45,7 +45,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-                <div v-for="project in projects" :key="project.id" class="rounded-xl items-stretch bg-[#242426] overflow-hidden min-h-40">
+                <div v-for="project in projects" :key="project.id" class="rounded-xl items-stretch bg-[#242426] overflow-hidden min-h-40" data-aos="fade-up">
                     <img :src="project.image" alt="" class="w-full h-50 object-cover opacity-80">
 
                     <div class="flex flex-col gap-4 p-4 justify-between min-h-40">

@@ -1,5 +1,6 @@
 <script setup>
   import AOS from 'aos'
+  import 'aos/dist/aos.css'
   import Header from './components/Header.vue';
   import { onMounted } from 'vue';
   import HeroSection from './components/HeroSection.vue';
