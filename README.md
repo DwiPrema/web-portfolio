@@ -1,38 +1,32 @@
-# portfolio_project
+# 🌐 Personal Portfolio Website
 
-This template should help get you started developing with Vue 3 in Vite.
+A clean, modern, and responsive personal portfolio website built with **Vue.js** and **Tailwind CSS**. This project serves as my digital home to showcase my skills, education, and software development projects while actively exploring Vue.js development.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Built With
 
-## Recommended Browser Setup
+- **Framework:** [Vue.js](https://vuejs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide Icons](https://lucide.dev/)
+- **Tooling:** Vite
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## 🧠 Learning Journey
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+This portfolio was crafted while learning **Vue.js** and mastering utility-first styling with **Tailwind CSS**. Key takeaways from this project include:
 
-## Project Setup
+* Component-driven architecture in Vue.js
+* dynamic data binding
+* Creating responsive layouts effortlessly with Tailwind CSS
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## 📬 Connect with Me
 
-```sh
-npm run dev
-```
+* **GitHub:** [@DwiPrema](https://github.com/DwiPrema)
+* **LinkedIn:** [Dwi Premayasa](https://www.linkedin.com/in/dwi-premayasa-60646738a)
+* **Email:** madedwiprema08@gmail.com
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+---
